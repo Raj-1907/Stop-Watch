@@ -37,7 +37,7 @@ body {
   margin: 0 auto;
   padding-top: 30px;
   color: #00000083;
-/*   text-shadow: 2px 2px 4px #00000083; */
+  text-shadow: 2px 2px 4px #00000083;
 }
 
 .buttons {
@@ -51,7 +51,7 @@ button {
   color: #00000083;
   cursor: pointer;
   margin: 4px 10px;
-  text-shadow: 2px 2px 4px #00000083;
+/*   text-shadow: 2px 2px 4px #00000083; */
 }
 
 #play,
