@@ -1,0 +1,82 @@
+body {
+  background: url(Img-5.jpg) no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  height: 200px;
+  width: 40%;
+  margin: 50px auto;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  );
+  /* background-blend-mode: blur(10px); */
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgba(63, 62, 62, 0.63);
+}
+
+.heading {
+  font-size: 17px; /* Adjust font size for responsiveness */
+  text-align: center;
+  margin-bottom: -50px;
+  color: #00000083;
+  text-shadow: 0 0 3px rgb(75, 72, 72);
+}
+#timer {
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  color: #00000083;
+  text-shadow: 2px 2px 4px #00000083;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: #00000083;
+  cursor: pointer;
+  margin: 4px 10px;
+  text-shadow: 2px 2px 4px #00000083;
+}
+
+#play,
+#pause {
+  font-size: 25px;
+}
+#reset {
+  font-size: 23px;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 70%; /* Adjust width for smaller screens */
+  }
+
+  #timer {
+    font-size: 30px; /* Adjust font-size for smaller screens */
+  }
+
+  button i {
+    font-size: 13px; /* Adjust font-size for smaller screens */
+  }
+  button {
+    margin: 2px 3px;
+  }
+  h1 {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+}
