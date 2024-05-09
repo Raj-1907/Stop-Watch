@@ -53,7 +53,7 @@ function stopWatch() {
 
 startBtn.addEventListener("click", function () {
   if (timerStatus === "stopped") {
-    timerInterval = window.setInterval(stopWatch, 1000);
+    timerInterval = window.setInterval(stopWatch, 20);
     document.getElementById("startBtn");
     timerStatus = "started";
   }
