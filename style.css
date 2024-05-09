@@ -67,16 +67,16 @@ button {
   }
 
   #timer {
-    font-size: 30px; /* Adjust font-size for smaller screens */
+    font-size: 40px; /* Adjust font-size for smaller screens */
   }
 
   button i {
-    font-size: 13px; /* Adjust font-size for smaller screens */
+    font-size: 20px; /* Adjust font-size for smaller screens */
   }
   button {
-    margin: 2px 3px;
+    margin: 15px 4px;
   }
   h1 {
-    font-size: 20px; /* Adjust font size for smaller screens */
+    font-size: 30px; /* Adjust font size for smaller screens */
   }
 }
